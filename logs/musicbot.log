@@ -1,0 +1,56 @@
+[29.281616211] 2020-03-30 06:49:43,261 - INFO - launcher: Starting sanity checks
+[30.257701874] 2020-03-30 06:49:43,262 - INFO - launcher: Checking for Python 3.5+
+[30.257701874] 2020-03-30 06:49:43,262 - INFO - launcher: Checking console encoding
+[30.257701874] 2020-03-30 06:49:43,262 - INFO - launcher: Setting console encoding to UTF-8
+[30.257701874] 2020-03-30 06:49:43,262 - INFO - launcher: Ensuring we're in the right environment
+[31.234502792] 2020-03-30 06:49:43,263 - INFO - launcher: Adding local bins/ folder to path
+[795.340061188] 2020-03-30 06:49:44,027 - INFO - launcher: Required checks passed.
+[797.291994095] 2020-03-30 06:49:44,029 - INFO - launcher: Optional checks passed.
+[797.291994095] 2020-03-30 06:49:44,029 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.0651164054870605] 2020-03-30 06:49:45,297 - WARNING - musicbot.config | In config.py::MainThread(49132), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.0651164054870605] 2020-03-30 06:49:45,297 - INFO - musicbot.config | In config.py::MainThread(49132), line 132 in run_checks: Using i18n: config/i18n/en.json
+[2.0699946880340576] 2020-03-30 06:49:45,302 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 225 in _setup_logging: Set logging level to INFO
+[2.0748753547668457] 2020-03-30 06:49:45,306 - DEBUG - musicbot.json | In json.py::MainThread(49132), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.1822359561920166] 2020-03-30 06:49:45,414 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 90 in __init__: Starting MusicBot version_unknown
+[2.1832115650177002] 2020-03-30 06:49:45,415 - WARNING - musicbot.bot | In bot.py::MainThread(49132), line 93 in __init__: Autoplaylist is empty, disabling.
+[5.5347909927368164] 2020-03-30 06:49:48,766 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 951 in on_ready: Connection established, ready to go.
+[5.5347909927368164] 2020-03-30 06:49:48,766 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 342 in _cache_app_info: Caching app info
+[5.8802947998046875] 2020-03-30 06:49:49,112 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[5.8812716007232666] 2020-03-30 06:49:49,113 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 783 in _scheck_ensure_env: Deleted old audio cache
+[5.8822460174560547] 2020-03-30 06:49:49,114 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 789 in _scheck_server_permissions: Checking server permissions
+[5.8822460174560547] 2020-03-30 06:49:49,114 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[5.8822460174560547] 2020-03-30 06:49:49,114 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 797 in _scheck_configs: Validating config
+[5.8822460174560547] 2020-03-30 06:49:49,114 - DEBUG - musicbot.config | In config.py::MainThread(49132), line 236 in async_validate: Validating options...
+[5.8822460174560547] 2020-03-30 06:49:49,114 - DEBUG - musicbot.config | In config.py::MainThread(49132), line 250 in async_validate: Acquired owner id via API
+[5.8822460174560547] 2020-03-30 06:49:49,114 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 800 in _scheck_configs: Validating permissions config
+[5.8832232952117920] 2020-03-30 06:49:49,115 - DEBUG - musicbot.permissions | In permissions.py::MainThread(49132), line 94 in async_validate: Validating permissions...
+[5.8832232952117920] 2020-03-30 06:49:49,115 - DEBUG - musicbot.permissions | In permissions.py::MainThread(49132), line 98 in async_validate: Fixing automatic owner group
+[5.8832232952117920] 2020-03-30 06:49:49,115 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 968 in on_ready: Connected: 692996077338624001/Music BOT by P0jii#4995
+[5.8841991424560547] 2020-03-30 06:49:49,116 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 976 in on_ready: Owner:     371621782710648834/PojiiiX#1337
+
+[5.8851742744445801] 2020-03-30 06:49:49,117 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 979 in on_ready: Guild List:
+[5.8851742744445801] 2020-03-30 06:49:49,117 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 983 in on_ready:  - Wasted Gaming
+[5.8861551284790039] 2020-03-30 06:49:49,118 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 1039 in on_ready: Not bound to any text channels
+[5.8871262073516846] 2020-03-30 06:49:49,119 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 1065 in on_ready: Not autojoining any voice channels
+[23.5704290866851807] 2020-03-30 06:50:06,802 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !summon
+[24.4685931205749512] 2020-03-30 06:50:07,700 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 1933 in cmd_summon: Joining Wasted Gaming/🔊LEPAK-BORAK🔊
+[24.4754254817962646] 2020-03-30 06:50:07,707 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 532 in on_player_stop: Running on_player_stop
+[47.9161813259124756] 2020-03-30 06:50:31,148 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !play chilled cow 3 hour
+[50.6594412326812744] 2020-03-30 06:50:33,891 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 1406 in cmd_play: {'_type': 'url', 'url': 'ytsearch:chilled cow 3 hour', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'chilled cow 3 hour', 'webpage_url_basename': 'chilled cow 3 hour', 'extractor_key': 'Generic'}
+[52.9249823093414307] 2020-03-30 06:50:36,157 - DEBUG - musicbot.entry | In entry.py::MainThread(49132), line 56 in get_ready_future: Created future for None
+[52.9260482788085938] 2020-03-30 06:50:36,158 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 624 in on_player_entry_added: Running on_player_entry_added
+[52.9260482788085938] 2020-03-30 06:50:36,158 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[52.9269344806671143] 2020-03-30 06:50:36,158 - INFO - musicbot.entry | In entry.py::MainThread(49132), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=lTRiuFIWV54
+[54.9352569580078125] 2020-03-30 06:50:38,167 - DEBUG - musicbot.entry | In entry.py::MainThread(49132), line 56 in get_ready_future: Created future for None
+[73.9366395473480225] 2020-03-30 06:50:57,168 - INFO - musicbot.entry | In entry.py::MainThread(49132), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=lTRiuFIWV54
+[73.9483511447906494] 2020-03-30 06:50:57,180 - DEBUG - musicbot.entry | In entry.py::MainThread(49132), line 270 in get_mean_volume: Calculating mean volume of audio_cache\youtube-lTRiuFIWV54-1_A.M_Study_Session_-_lofi_hip_hop_chill_beats.webm
+[73.9581115245819092] 2020-03-30 06:50:57,190 - DEBUG - musicbot.entry | In entry.py::MainThread(49132), line 244 in run_command: Starting asyncio subprocess (<Process 29792>) with command: "D:\MusicBot\bin\ffmpeg" -i "audio_cache\youtube-lTRiuFIWV54-1_A.M_Study_Session_-_lofi_hip_hop_chill_beats.webm" -af "volumedetect" -f null /dev/null
+[102.9083662033081055] 2020-03-30 06:51:26,140 - INFO - musicbot.bot | In bot.py::MainThread(49132), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !volume
+[112.1521556377410889] 2020-03-30 06:51:35,384 - DEBUG - musicbot.entry | In entry.py::MainThread(49132), line 287 in get_mean_volume: Calculated mean volume as -13.5
+[112.1521556377410889] 2020-03-30 06:51:35,384 - FFMPEG - musicbot.player | In player.py::MainThread(49132), line 293 in _play: Creating player with options: -nostdin -af "volume=-0.0dB" audio_cache\youtube-lTRiuFIWV54-1_A.M_Study_Session_-_lofi_hip_hop_chill_beats.webm
+[112.1570363044738770] 2020-03-30 06:51:35,389 - DEBUG - musicbot.player | In player.py::MainThread(49132), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000182B66C2688> using <discord.voice_client.VoiceClient object at 0x00000182B636D948>
+[112.1599647998809814] 2020-03-30 06:51:35,392 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 460 in on_player_play: Running on_player_play
+[112.1599647998809814] 2020-03-30 06:51:35,392 - DEBUG - musicbot.bot | In bot.py::MainThread(49132), line 709 in serialize_queue: Serializing queue for 331812653846757379

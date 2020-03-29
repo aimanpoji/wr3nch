@@ -1,0 +1,125 @@
+[911.554813385] 2020-03-30 06:00:49,107 - INFO - launcher: Starting sanity checks
+[912.518024445] 2020-03-30 06:00:49,108 - INFO - launcher: Checking for Python 3.5+
+[912.518024445] 2020-03-30 06:00:49,108 - INFO - launcher: Checking console encoding
+[913.492202759] 2020-03-30 06:00:49,109 - INFO - launcher: Setting console encoding to UTF-8
+[913.492202759] 2020-03-30 06:00:49,109 - INFO - launcher: Ensuring we're in the right environment
+[914.469003677] 2020-03-30 06:00:49,110 - INFO - launcher: Adding local bins/ folder to path
+[6919.337987900] 2020-03-30 06:00:55,115 - INFO - launcher: Required checks passed.
+[6921.301126480] 2020-03-30 06:00:55,117 - INFO - launcher: Optional checks passed.
+[6922.264337540] 2020-03-30 06:00:55,118 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[22.0358779430389404] 2020-03-30 06:01:10,231 - WARNING - musicbot.config | In config.py::MainThread(38740), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[22.0378291606903076] 2020-03-30 06:01:10,233 - INFO - musicbot.config | In config.py::MainThread(38740), line 132 in run_checks: Using i18n: config/i18n/en.json
+[22.0963096618652344] 2020-03-30 06:01:10,292 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 225 in _setup_logging: Set logging level to INFO
+[22.1335513591766357] 2020-03-30 06:01:10,329 - DEBUG - musicbot.json | In json.py::MainThread(38740), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[22.3693647384643555] 2020-03-30 06:01:10,565 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 90 in __init__: Starting MusicBot version_unknown
+[22.5643880367279053] 2020-03-30 06:01:10,760 - WARNING - musicbot.bot | In bot.py::MainThread(38740), line 93 in __init__: Autoplaylist is empty, disabling.
+[26.2826392650604248] 2020-03-30 06:01:14,478 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 951 in on_ready: Connection established, ready to go.
+[26.2836143970489502] 2020-03-30 06:01:14,479 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 342 in _cache_app_info: Caching app info
+[26.6236817836761475] 2020-03-30 06:01:14,819 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[26.6266071796417236] 2020-03-30 06:01:14,822 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 783 in _scheck_ensure_env: Deleted old audio cache
+[26.6266071796417236] 2020-03-30 06:01:14,822 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 789 in _scheck_server_permissions: Checking server permissions
+[26.6275837421417236] 2020-03-30 06:01:14,823 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[26.6281142234802246] 2020-03-30 06:01:14,823 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 797 in _scheck_configs: Validating config
+[26.6281142234802246] 2020-03-30 06:01:14,823 - DEBUG - musicbot.config | In config.py::MainThread(38740), line 236 in async_validate: Validating options...
+[26.6281142234802246] 2020-03-30 06:01:14,823 - DEBUG - musicbot.config | In config.py::MainThread(38740), line 250 in async_validate: Acquired owner id via API
+[26.6281142234802246] 2020-03-30 06:01:14,823 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 800 in _scheck_configs: Validating permissions config
+[26.6290736198425293] 2020-03-30 06:01:14,824 - DEBUG - musicbot.permissions | In permissions.py::MainThread(38740), line 94 in async_validate: Validating permissions...
+[26.6290736198425293] 2020-03-30 06:01:14,824 - DEBUG - musicbot.permissions | In permissions.py::MainThread(38740), line 98 in async_validate: Fixing automatic owner group
+[26.6290736198425293] 2020-03-30 06:01:14,824 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 968 in on_ready: Connected: 692996077338624001/Music BOT by P0jii#4995
+[26.7478032112121582] 2020-03-30 06:01:14,943 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 976 in on_ready: Owner:     371621782710648834/PojiiiX#1337
+
+[26.7727134227752686] 2020-03-30 06:01:14,968 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 979 in on_ready: Guild List:
+[26.7800550460815430] 2020-03-30 06:01:14,975 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 983 in on_ready:  - Wasted Gaming
+[26.7810339927673340] 2020-03-30 06:01:14,976 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 1039 in on_ready: Not bound to any text channels
+[26.7820074558258057] 2020-03-30 06:01:14,977 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 1065 in on_ready: Not autojoining any voice channels
+[26.7839603424072266] 2020-03-30 06:01:14,979 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 272 in _join_startup_channels: Found owner in "🔊LEPAK-BORAK🔊"
+[26.8440072536468506] 2020-03-30 06:01:15,039 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 281 in _join_startup_channels: Attempting to join Wasted Gaming/🔊LEPAK-BORAK🔊
+[27.9275856018066406] 2020-03-30 06:01:16,123 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 733 in deserialize_queue: Deserializing queue for 331812653846757379
+[28.9109764099121094] 2020-03-30 06:01:17,106 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 425 in get_player: Created player via deserialization for guild 331812653846757379 with 1 entries
+[28.9109764099121094] 2020-03-30 06:01:17,106 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 297 in _join_startup_channels: Joined Wasted Gaming/🔊LEPAK-BORAK🔊
+[28.9417419433593750] 2020-03-30 06:01:17,137 - DEBUG - musicbot.entry | In entry.py::MainThread(38740), line 56 in get_ready_future: Created future for https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1585539383/ei/1hSBXrL3OvLu4-EP2Y68mA8/ip/118.101.74.208/id/5qap5aO4i9A.0/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/r2---sn-uh-30aly.googlevideo.com/vprv/1/playlist_type/DVR/initcwndbps/10220/mh/30/mm/44/mn/sn-uh-30aly/ms/lva/mv/m/mvi/1/pl/23/dover/11/keepalive/yes/mt/1585517716/disable_polymer/true/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,goi,sgoap,sgovp,vprv,playlist_type/sig/AJpPlLswRQIhALZjBDBdFGC9kGt1ROxs875NZiOHg53_y04RiqikHa-VAiBVDcMw5a7UNF3NgJYXTU1wVDmFuYsdY2WGxoHygY65Ow%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/ALrAebAwRAIgA4cJKwqsGKn9F_-HRbOIB-bPmWFrAr3neWOdWWHpMwECIERKODiXOO3KIkfMEsdZtGDbDCn9HqQZrPutV-HpGZqx/playlist/index.m3u8
+[28.9427173137664795] 2020-03-30 06:01:17,138 - FFMPEG - musicbot.player | In player.py::MainThread(38740), line 293 in _play: Creating player with options: -nostdin -vn https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1585539383/ei/1hSBXrL3OvLu4-EP2Y68mA8/ip/118.101.74.208/id/5qap5aO4i9A.0/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/r2---sn-uh-30aly.googlevideo.com/vprv/1/playlist_type/DVR/initcwndbps/10220/mh/30/mm/44/mn/sn-uh-30aly/ms/lva/mv/m/mvi/1/pl/23/dover/11/keepalive/yes/mt/1585517716/disable_polymer/true/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,goi,sgoap,sgovp,vprv,playlist_type/sig/AJpPlLswRQIhALZjBDBdFGC9kGt1ROxs875NZiOHg53_y04RiqikHa-VAiBVDcMw5a7UNF3NgJYXTU1wVDmFuYsdY2WGxoHygY65Ow%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/ALrAebAwRAIgA4cJKwqsGKn9F_-HRbOIB-bPmWFrAr3neWOdWWHpMwECIERKODiXOO3KIkfMEsdZtGDbDCn9HqQZrPutV-HpGZqx/playlist/index.m3u8
+[29.1576771736145020] 2020-03-30 06:01:17,353 - DEBUG - musicbot.player | In player.py::MainThread(38740), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000240B2FC23C8> using <discord.voice_client.VoiceClient object at 0x00000240B2FDC5C8>
+[29.4317076206207275] 2020-03-30 06:01:17,627 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 460 in on_player_play: Running on_player_play
+[29.4317076206207275] 2020-03-30 06:01:17,627 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[40.4537577629089355] 2020-03-30 06:01:28,649 - FFMPEG - musicbot.player | In player.py::stderr reader(21024), line 404 in filter_stderr: Data from ffmpeg: b'[hls @ 06bd4840] Media sequence changed unexpectedly: 620537 -> 620534\r\n'
+[62.8024129867553711] 2020-03-30 06:01:50,998 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !pldump
+[89.3728921413421631] 2020-03-30 06:02:17,568 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !remove
+[89.3738677501678467] 2020-03-30 06:02:17,569 - ERROR - musicbot.bot | In bot.py::MainThread(38740), line 2833 in on_message: Error in remove: CommandError: There's nothing to remove!
+Traceback (most recent call last):
+  File "D:\MusicBot\musicbot\bot.py", line 2811, in on_message
+    response = await handler(**handler_kwargs)
+  File "D:\MusicBot\musicbot\bot.py", line 2011, in cmd_remove
+    raise exceptions.CommandError(self.str.get('cmd-remove-none', "There's nothing to remove!"), expire_in=20)
+musicbot.exceptions.CommandError: There's nothing to remove!
+[97.4126603603363037] 2020-03-30 06:02:25,608 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !help remove
+[106.1054167747497559] 2020-03-30 06:02:34,301 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !queue
+[173.1642830371856689] 2020-03-30 06:03:41,360 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !volume 15
+[267.5464272499084473] 2020-03-30 06:05:15,742 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !play chilled cow hip hop
+[270.2163734436035156] 2020-03-30 06:05:18,412 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 1406 in cmd_play: {'_type': 'url', 'url': 'ytsearch:chilled cow hip hop', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'chilled cow hip hop', 'webpage_url_basename': 'chilled cow hip hop', 'extractor_key': 'Generic'}
+[272.0071401596069336] 2020-03-30 06:05:20,202 - DEBUG - musicbot.entry | In entry.py::MainThread(38740), line 56 in get_ready_future: Created future for None
+[272.0105857849121094] 2020-03-30 06:05:20,206 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 624 in on_player_entry_added: Running on_player_entry_added
+[272.0105857849121094] 2020-03-30 06:05:20,206 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[272.0125393867492676] 2020-03-30 06:05:20,208 - INFO - musicbot.entry | In entry.py::MainThread(38740), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=gl5DYoxkI20
+[274.3585488796234131] 2020-03-30 06:05:22,554 - INFO - musicbot.entry | In entry.py::MainThread(38740), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=gl5DYoxkI20
+[284.9092237949371338] 2020-03-30 06:05:33,104 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !skip
+[285.2263693809509277] 2020-03-30 06:05:33,422 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[285.5446293354034424] 2020-03-30 06:05:33,740 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[285.5456054210662842] 2020-03-30 06:05:33,741 - DEBUG - musicbot.entry | In entry.py::MainThread(38740), line 56 in get_ready_future: Created future for audio_cache\youtube-gl5DYoxkI20-a_way_-_frosen_roses.webm
+[285.5456054210662842] 2020-03-30 06:05:33,741 - FFMPEG - musicbot.player | In player.py::MainThread(38740), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-gl5DYoxkI20-a_way_-_frosen_roses.webm
+[285.5504856109619141] 2020-03-30 06:05:33,746 - DEBUG - musicbot.player | In player.py::MainThread(38740), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000240B385A588> using <discord.voice_client.VoiceClient object at 0x00000240B2FDC5C8>
+[285.5514605045318604] 2020-03-30 06:05:33,747 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 460 in on_player_play: Running on_player_play
+[285.5524370670318604] 2020-03-30 06:05:33,748 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[318.2272682189941406] 2020-03-30 06:06:06,423 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !volume 100
+[930.6218271255493164] 2020-03-30 06:16:18,817 - DEBUG - musicbot.player | In player.py::Thread-6(14156), line 220 in _playback_finished: Deleting file: audio_cache\youtube-gl5DYoxkI20-a_way_-_frosen_roses.webm
+[930.6247529983520508] 2020-03-30 06:16:18,820 - DEBUG - musicbot.player | In player.py::Thread-6(14156), line 225 in _playback_finished: File deleted: audio_cache\youtube-gl5DYoxkI20-a_way_-_frosen_roses.webm
+[931.4715507030487061] 2020-03-30 06:16:19,667 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[931.8004636764526367] 2020-03-30 06:16:19,996 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[931.8014402389526367] 2020-03-30 06:16:19,997 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 532 in on_player_stop: Running on_player_stop
+[1075.4307076930999756] 2020-03-30 06:18:43,626 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !play chilled cow playlist
+[1076.7751405239105225] 2020-03-30 06:18:44,970 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 1406 in cmd_play: {'_type': 'url', 'url': 'ytsearch:chilled cow playlist', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'chilled cow playlist', 'webpage_url_basename': 'chilled cow playlist', 'extractor_key': 'Generic'}
+[1078.6282017230987549] 2020-03-30 06:18:46,823 - DEBUG - musicbot.entry | In entry.py::MainThread(38740), line 56 in get_ready_future: Created future for None
+[1078.6311287879943848] 2020-03-30 06:18:46,826 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 624 in on_player_entry_added: Running on_player_entry_added
+[1078.6321134567260742] 2020-03-30 06:18:46,827 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[1078.6340568065643311] 2020-03-30 06:18:46,829 - INFO - musicbot.entry | In entry.py::MainThread(38740), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=fx7wbQ7i1ug
+[1079.8125715255737305] 2020-03-30 06:18:48,008 - INFO - musicbot.entry | In entry.py::MainThread(38740), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=fx7wbQ7i1ug
+[1080.6337158679962158] 2020-03-30 06:18:48,829 - DEBUG - musicbot.entry | In entry.py::MainThread(38740), line 56 in get_ready_future: Created future for audio_cache\youtube-fx7wbQ7i1ug-j_san._-_I_feel_serene.webm
+[1080.6337158679962158] 2020-03-30 06:18:48,829 - FFMPEG - musicbot.player | In player.py::MainThread(38740), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-fx7wbQ7i1ug-j_san._-_I_feel_serene.webm
+[1080.6434764862060547] 2020-03-30 06:18:48,839 - DEBUG - musicbot.player | In player.py::MainThread(38740), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000240B38566C8> using <discord.voice_client.VoiceClient object at 0x00000240B2FDC5C8>
+[1080.6493332386016846] 2020-03-30 06:18:48,845 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 460 in on_player_play: Running on_player_play
+[1080.6493332386016846] 2020-03-30 06:18:48,845 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[1189.6457312107086182] 2020-03-30 06:20:37,841 - DEBUG - musicbot.player | In player.py::Thread-7(36760), line 220 in _playback_finished: Deleting file: audio_cache\youtube-fx7wbQ7i1ug-j_san._-_I_feel_serene.webm
+[1189.6506142616271973] 2020-03-30 06:20:37,846 - DEBUG - musicbot.player | In player.py::Thread-7(36760), line 225 in _playback_finished: File deleted: audio_cache\youtube-fx7wbQ7i1ug-j_san._-_I_feel_serene.webm
+[1196.7565233707427979] 2020-03-30 06:20:44,952 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[1197.1113197803497314] 2020-03-30 06:20:45,307 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[1197.1122965812683105] 2020-03-30 06:20:45,308 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 532 in on_player_stop: Running on_player_stop
+[1393.1998164653778076] 2020-03-30 06:24:01,395 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !play chilled cow 1 hour
+[1394.6015050411224365] 2020-03-30 06:24:02,797 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 1406 in cmd_play: {'_type': 'url', 'url': 'ytsearch:chilled cow 1 hour', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'chilled cow 1 hour', 'webpage_url_basename': 'chilled cow 1 hour', 'extractor_key': 'Generic'}
+[1396.6520106792449951] 2020-03-30 06:24:04,847 - DEBUG - musicbot.entry | In entry.py::MainThread(38740), line 56 in get_ready_future: Created future for None
+[1396.6539630889892578] 2020-03-30 06:24:04,849 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 624 in on_player_entry_added: Running on_player_entry_added
+[1396.6539630889892578] 2020-03-30 06:24:04,849 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[1396.6549379825592041] 2020-03-30 06:24:04,850 - INFO - musicbot.entry | In entry.py::MainThread(38740), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=lTRiuFIWV54
+[1398.6766667366027832] 2020-03-30 06:24:06,872 - DEBUG - musicbot.entry | In entry.py::MainThread(38740), line 56 in get_ready_future: Created future for None
+[1411.8658127784729004] 2020-03-30 06:24:20,061 - INFO - musicbot.entry | In entry.py::MainThread(38740), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=lTRiuFIWV54
+[1411.9206624031066895] 2020-03-30 06:24:20,116 - FFMPEG - musicbot.player | In player.py::MainThread(38740), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-lTRiuFIWV54-1_A.M_Study_Session_-_lofi_hip_hop_chill_beats.webm
+[1411.9265186786651611] 2020-03-30 06:24:20,122 - DEBUG - musicbot.player | In player.py::MainThread(38740), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000240B2F59508> using <discord.voice_client.VoiceClient object at 0x00000240B2FDC5C8>
+[1411.9758343696594238] 2020-03-30 06:24:20,171 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 460 in on_player_play: Running on_player_play
+[1411.9768104553222656] 2020-03-30 06:24:20,172 - DEBUG - musicbot.bot | In bot.py::MainThread(38740), line 709 in serialize_queue: Serializing queue for 331812653846757379
+[1530.5237882137298584] 2020-03-30 06:26:18,719 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !help nickname
+[1530.6160886287689209] 2020-03-30 06:26:18,811 - ERROR - musicbot.bot | In bot.py::MainThread(38740), line 2833 in on_message: Error in help: CommandError: No such command
+Traceback (most recent call last):
+  File "D:\MusicBot\musicbot\bot.py", line 2811, in on_message
+    response = await handler(**handler_kwargs)
+  File "D:\MusicBot\musicbot\bot.py", line 1157, in cmd_help
+    raise exceptions.CommandError(self.str.get('cmd-help-invalid', "No such command"), expire_in=10)
+musicbot.exceptions.CommandError: No such command
+[1540.0079326629638672] 2020-03-30 06:26:28,203 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !help all
+[1548.1460254192352295] 2020-03-30 06:26:36,341 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !help setnick
+[1581.8401713371276855] 2020-03-30 06:27:10,035 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !setnick Wr3ncH
+[1597.7528347969055176] 2020-03-30 06:27:25,948 - INFO - musicbot.bot | In bot.py::MainThread(38740), line 2704 in on_message: 371621782710648834/PojiiiX#1337: !shutdown
+[1598.3591411113739014] 2020-03-30 06:27:26,554 - DEBUG - musicbot.player | In player.py::Thread-8(46972), line 220 in _playback_finished: Deleting file: audio_cache\youtube-lTRiuFIWV54-1_A.M_Study_Session_-_lofi_hip_hop_chill_beats.webm
+[1598.3737804889678955] 2020-03-30 06:27:26,569 - DEBUG - musicbot.player | In player.py::Thread-8(46972), line 225 in _playback_finished: File deleted: audio_cache\youtube-lTRiuFIWV54-1_A.M_Study_Session_-_lofi_hip_hop_chill_beats.webm
+[1598.416727543] launcher-INFO: All done.

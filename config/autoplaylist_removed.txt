@@ -1,0 +1,37 @@
+# Entry removed Fri Mar 27 14:23:30 2020
+# Reason: [0;31mERROR:[0m 8CPlF-IEkXQ: YouTube said: This video is unavailable.
+#          Sorry about that.
+https://youtube.com/watch?v=8CPlF-IEkXQ
+
+################################
+
+# Entry removed Fri Mar 27 17:38:07 2020
+# Reason: [0;31mERROR:[0m 5eSzsJKn8FM: YouTube said: This video is unavailable.
+#          Sorry about that.
+https://youtube.com/watch?v=5eSzsJKn8FM
+
+################################
+
+# Entry removed Fri Mar 27 18:08:27 2020
+# Reason: [0;31mERROR:[0m Content Warning
+#          If the owner of this video has granted you access, please sign in.
+#                 This video is private.
+https://youtube.com/watch?v=z26SXn-J9NY
+
+################################
+
+# Entry removed Fri Mar 27 18:08:28 2020
+# Reason: [0;31mERROR:[0m Content Warning
+#          If the owner of this video has granted you access, please sign in.
+#                 This video is private.
+https://youtube.com/watch?v=gBC5cnFjPpU
+
+################################
+
+# Entry removed Fri Mar 27 18:11:30 2020
+# Reason: [0;31mERROR:[0m Haypxj24_Uw: YouTube said: This video is no longer available because the YouTube account associated with this video has been terminated.
+#          Sorry about that.
+https://youtube.com/watch?v=Haypxj24_Uw
+
+################################
+
